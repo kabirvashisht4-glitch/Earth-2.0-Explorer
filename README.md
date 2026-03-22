@@ -1,7 +1,7 @@
-# Exoplanet-Explorer
-The Exoplanet Explorer is a web-based discovery platform designed to visualize and interact with data for confirmed planets outside our solar system. Using real-time data from NASA, the application allows users to explore the vast catalog of "All Known Planets" in the universe.
+# Earth 2.0 Explorer
+The Earth 2.0 Explorer is a specialized web application designed to identify and visualize potentially habitable planets outside our solar system. Out of the 5,000+ confirmed exoplanets, this platform focuses on "Earth Twins"—planets with a 60% to 100% similarity to Earth based on size, mass, and orbital distance.
 
-The goal is to provide a clean, responsive interface where space enthusiasts and students can search for specific star systems and filter discoveries based on scientific criteria.
+The goal is to provide a clean, responsive interface for space enthusiasts to find the most likely candidates for "Earth 2.0" using real-time data from NASA.
 
 📡 API Integration
 This project integrates the NASA Exoplanet Archive.
