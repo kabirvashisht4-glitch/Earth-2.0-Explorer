@@ -3,7 +3,7 @@ The Earth 2.0 Explorer is a specialized web application designed to identify and
 
 The goal is to provide a clean, responsive interface for space enthusiasts to find the most likely candidates for "Earth 2.0" using real-time data from NASA.
 
-📡 API Integration
+API Integration
 This project integrates the NASA Exoplanet Archive.
 
 Source: NASA Exoplanet Archive
@@ -12,7 +12,7 @@ Data Points: Planet Name, Host Star Name, Discovery Year, Discovery Method, Plan
 
 Method: Data will be retrieved dynamically using the JavaScript fetch() API in JSON format.
 
-🛠️ Core Features (Planned)
+Core Features (Planned)
 To satisfy the project requirements, the following features will be implemented using Array Higher-Order Functions :
 
   - Search (Filter HOF):
@@ -33,7 +33,7 @@ To satisfy the project requirements, the following features will be implemented 
 
 A Dark Mode aesthetic suitable for a space-themed application.
 
-💻 Tech Stack
+Tech Stack
  - HTML
  - CSS
  - Javascript
