@@ -8,7 +8,7 @@ This project integrates the NASA Exoplanet Archive.
 
 Source: NASA Exoplanet Archive
 
-Data Points: Planet Name, Host Star Name, Discovery Year, Discovery Method, Planet Mass, and Distance from Earth .
+Data Points: Planet Name, Host Star Name, Discovery Year, Discovery Method, Planet Mass, and Distance from Earth.
 
 Method: Data will be retrieved dynamically using the JavaScript fetch() API in JSON format.
 
@@ -17,15 +17,15 @@ To satisfy the project requirements, the following features will be implemented 
 
   - Search (Filter HOF):
   
-  A real-time search bar to find planets by name or host star (e.g., searching "Proxima" or "TRAPPIST").
+    A real-time search bar to find planets by name or host star.
 
   - Filtering (Filter HOF):
   
-  Toggle buttons to filter planets by Discovery Method (e.g., Transit, Radial Velocity, or Direct Imaging).
+    Toggle buttons to filter planets by Discovery Method.
 
   - Sorting (Sort HOF):
   
-  Functionality to arrange planets by Discovery Year (Newest to Oldest) or by Distance from Earth.
+    Functionality to arrange planets by Discovery Year (Newest to Oldest) or by Distance from Earth.
 
   - Interactive UI:
   
