@@ -37,3 +37,4 @@ Tech Stack
  - HTML
  - CSS
  - Javascript
+ - React
