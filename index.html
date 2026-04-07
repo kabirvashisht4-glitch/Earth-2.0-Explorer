@@ -16,9 +16,21 @@
             </div>
 
             <div class="filter-group">
-                <select class="ui-select"><option>Size</option></select>
-                <select class="ui-select"><option>Discovered</option></select>
-                <select class="ui-select"><option>Transit</option></select>
+                <select id="filterSize" class="ui-select">
+                    <option value="all">All Sizes</option>
+                    <option value="small">Small (Earth-like)</option>
+                    <option value="large">Large (Jupiter-like)</option>
+                </select>
+                <select id="filterYear" class="ui-select">
+                    <option value="all">All Years</option>
+                    <option value="new">New (2020+)</option>
+                    <option value="old">Old (Before 2020)</option>
+                </select>
+                <select id="filterMethod" class="ui-select">
+                    <option value="all">All Methods</option>
+                    <option value="Transit">Transit</option>
+                    <option value="Radial Velocity">Radial Velocity</option>
+                </select>
             </div>
         </header>
         <div class="table-wrapper">
