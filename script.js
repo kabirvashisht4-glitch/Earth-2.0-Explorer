@@ -6,7 +6,7 @@ const filterMethod = document.getElementById('filterMethod');
 
 let allPlanets = [];
 
-fetch("https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+pl_name,hostname,disc_year,discoverymethod,pl_bmassj,sy_dist+from+pscomppars+where+pl_bmassj+is+not+null+and+sy_dist+is+not+null&format=json")
+fetch("https://json.extendsclass.com/bin/51e095179141")
   .then(res => res.json())
   .then(data => {
     allPlanets = data.slice(0, 200)

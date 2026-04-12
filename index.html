@@ -12,27 +12,28 @@
             <h1 class="main-title">EARTH EXPLORER</h1>
             
             <div class="search-wrapper">
-                <input type="text" id="planetSearch" class="main-search" placeholder="Search Planets">
+                <input type="text" id="planetSearch" class="main-search" placeholder="Search Exoplanets...">
             </div>
 
             <div class="filter-group">
                 <select id="filterSize" class="ui-select">
-                    <option value="all">All Sizes</option>
+                    <option value="all">Size: All</option>
                     <option value="small">Small (Earth-like)</option>
                     <option value="large">Large (Jupiter-like)</option>
                 </select>
                 <select id="filterYear" class="ui-select">
-                    <option value="all">All Years</option>
+                    <option value="all">Year: All</option>
                     <option value="new">New (2020+)</option>
                     <option value="old">Old (Before 2020)</option>
                 </select>
                 <select id="filterMethod" class="ui-select">
-                    <option value="all">All Methods</option>
+                    <option value="all">Method: All</option>
                     <option value="Transit">Transit</option>
                     <option value="Radial Velocity">Radial Velocity</option>
                 </select>
             </div>
         </header>
+
         <div class="table-wrapper">
             <table class="data-table">
                 <thead>
@@ -46,7 +47,7 @@
                     </tr>
                 </thead>
                 <tbody id="tableBody">
-                    <tr><td colspan="6" style="text-align: center;">Loading Data...</td></tr>
+                    <tr><td colspan="6" class="loading">Initializing Mission Data...</td></tr>
                 </tbody>
             </table>
         </div>
